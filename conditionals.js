@@ -20,6 +20,7 @@ if (cold) {
   console.log("Short sleeves are fine.");
 }
 */
+/*
 const temperature = 20;
 
 if (temperature < 0){
@@ -30,3 +31,13 @@ if (temperature < 0){
   console.log("Short sleeves are fine.");
 }
 console.log("Now you're ready to go outside!");
+*/
+const temperature = -46;
+const raining = false;
+
+if (temperature < -40 || temperature > 40){
+  console.log("Maybe going outside isn't such a great idea...");
+}
+if (!raining){
+  console.log("Leave your umbrella at home!");
+}
