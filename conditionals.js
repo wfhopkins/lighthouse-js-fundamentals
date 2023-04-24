@@ -32,6 +32,7 @@ if (temperature < 0){
 }
 console.log("Now you're ready to go outside!");
 */
+/*
 const temperature = -46;
 const raining = false;
 
@@ -41,3 +42,18 @@ if (temperature < -40 || temperature > 40){
 if (!raining){
   console.log("Leave your umbrella at home!");
 }
+*/
+const whichSchool  = function (age) {
+  //Print Elementary School if age is less than 13
+   if (age >= 1 && age < 13){
+     return "Elementary School";
+   }
+   //Print Secondary school if age is 13 or greater up to and including 18
+   else if (age >= 13 && age <= 18){
+     return "Secondary School";
+   }
+   //Any age over 18 print Lighthouse Labs
+   else {
+     return "Lighthouse Labs";
+   }
+ };
