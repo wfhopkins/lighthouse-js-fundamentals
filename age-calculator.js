@@ -5,3 +5,4 @@ const ageCalculator = function(name, yearOfBirth, currentYear) {
   return name + " is " + (currentYear - yearOfBirth) + " years old."
 };
 console.log(ageCalculator("Miranda", 1983, 2023));
+console.log(ageCalculator("Daelyn", 1996, 2023));
