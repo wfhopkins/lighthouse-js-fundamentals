@@ -1,5 +1,7 @@
 function concat(arr1, arr2) {
   let arr3 = arr1.concat(arr2);
+  //function used to sort arrays lowest to highest
+  //not necessary for this exercise
   // arr3.sort(function(a, b) {
   // return a - b;
   console.log(arr3);
